@@ -8,11 +8,10 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9"
+matplotlib = ">=3.6.0"
 
-# For Running tests, building documentation
-matplotlib = "^3.6.0"
-[tool.poetry.dev-dependencies]
+[tool.poetry.dev-dependencies] # For Running tests, building documentation
 
 
 [build-system]
