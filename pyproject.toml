@@ -1,3 +1,4 @@
+# Package Metadata
 [tool.poetry]
 name = "pycounts"
 version = "0.1.0"
@@ -9,7 +10,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 
+# For Running tests, building documentation
+matplotlib = "^3.6.0"
 [tool.poetry.dev-dependencies]
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
